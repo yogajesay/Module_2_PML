@@ -4,7 +4,7 @@ import pickle
 import os
 
 #Load model yang sudah dibuat dari Jupyter Notebook
-model_path = 'C:\Users\yogaj\OneDrive\Dokumen\machie learning'
+model_path = ''
 model = os.path.join(model_path, 'GBT_heartDisease_model.pkl')
 
 with open(model, 'rb') as f:
